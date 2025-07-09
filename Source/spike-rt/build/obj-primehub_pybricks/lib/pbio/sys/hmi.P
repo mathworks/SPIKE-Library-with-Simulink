@@ -1,0 +1,89 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/sys/hmi.o: \
+ ../../lib/pbio/sys/hmi.c \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../..//lib/contiki-core/contiki.h \
+ ../..//lib/contiki-core/contiki-version.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h \
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h \
+ ../..//lib/contiki-core/sys/cc.h ../..//lib/contiki-core/sys/cc-gcc.h \
+ ../..//lib/contiki-core/sys/autostart.h \
+ ../..//lib/contiki-core/sys/process.h \
+ ../..//lib/contiki-core/sys/timer.h ../..//lib/contiki-core/sys/clock.h \
+ ../..//lib/contiki-core/sys/ctimer.h \
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/timer.h \
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/procinit.h \
+ ../..//lib/contiki-core/sys/clock.h ../..//lib/pbio/include/pbdrv/core.h \
+ ../..//lib/pbio/include/pbdrv/reset.h \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h \
+ ../..//lib/pbio/include/pbdrv/led.h ../..//lib/pbio/include/pbio/color.h \
+ ../..//lib/pbio/include/pbio/error.h \
+ ../..//lib/pbio/include/pbio/button.h \
+ ../..//lib/pbio/include/pbio/port.h \
+ ../..//lib/pbio/include/pbdrv/button.h \
+ ../..//lib/pbio/include/pbio/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h \
+ ../..//lib/pbio/include/pbio/event.h \
+ ../..//lib/pbio/include/pbio/light.h \
+ ../..//lib/pbio/include/pbsys/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h \
+ ../..//lib/pbio/include/pbsys/status.h \
+ ../..//lib/pbio/include/pbio/protocol.h \
+ ../..//lib/pbio/include/pbio/util.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ ../../lib/pbio/sys/light_matrix.h ../../lib/pbio/sys/light.h \
+ ../../lib/pbio/sys/program_load.h ../..//lib/pbio/include/pbsys/main.h
+ ../../lib/pbio/sys/hmi.c :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../..//lib/contiki-core/contiki.h :
+ ../..//lib/contiki-core/contiki-version.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h :
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h :
+ ../..//lib/contiki-core/sys/cc.h ../..//lib/contiki-core/sys/cc-gcc.h :
+ ../..//lib/contiki-core/sys/autostart.h :
+ ../..//lib/contiki-core/sys/process.h :
+ ../..//lib/contiki-core/sys/timer.h ../..//lib/contiki-core/sys/clock.h :
+ ../..//lib/contiki-core/sys/ctimer.h :
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/timer.h :
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/procinit.h :
+ ../..//lib/contiki-core/sys/clock.h ../..//lib/pbio/include/pbdrv/core.h :
+ ../..//lib/pbio/include/pbdrv/reset.h :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :
+ ../..//lib/pbio/include/pbdrv/led.h ../..//lib/pbio/include/pbio/color.h :
+ ../..//lib/pbio/include/pbio/error.h :
+ ../..//lib/pbio/include/pbio/button.h :
+ ../..//lib/pbio/include/pbio/port.h :
+ ../..//lib/pbio/include/pbdrv/button.h :
+ ../..//lib/pbio/include/pbio/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h :
+ ../..//lib/pbio/include/pbio/event.h :
+ ../..//lib/pbio/include/pbio/light.h :
+ ../..//lib/pbio/include/pbsys/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h :
+ ../..//lib/pbio/include/pbsys/status.h :
+ ../..//lib/pbio/include/pbio/protocol.h :
+ ../..//lib/pbio/include/pbio/util.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h :
+ ../../lib/pbio/sys/light_matrix.h ../../lib/pbio/sys/light.h :
+ ../../lib/pbio/sys/program_load.h ../..//lib/pbio/include/pbsys/main.h :

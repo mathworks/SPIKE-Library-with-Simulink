@@ -1,0 +1,127 @@
+The `pybricks-micropython` port contains 3rd-party software.
+
+This file contains a summary of the 3rd-party software and conditions. The full
+license text and additional information can be found in the specified
+subdirectories.
+
+
+### Texas Instruments BLE5-Stack
+
+**path**: `lib/ble5stack/`
+
+**origin**: simplelink_sdk_ble_plugin_3_20_00_24
+
+**url**: https://www.ti.com/tool/download/SIMPLELINK-SDK-BLUETOOTH-PLUGIN
+
+**terms**:
+- License: proprietary/BSD-3-Clause
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: Compiled code can only be executed on TI products
+- Restrictions: Liability, trademark use, warranty
+
+
+### STM32 BlueNRG-MS
+
+**path**: `lib/BlueNRG-MS/`
+
+**origin**: STM32CubeExpansion_BLE1_4.1.0
+
+**url**: https://my.st.com/content/my_st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-expansion-packages/x-cube-ble1.html
+
+**terms**:
+- License: proprietary
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: Compiled code can only be executed on STM32 products
+- Restrictions: Liability, trademark use, warranty
+
+### nxos
+
+**path**: `lib/nxos`
+
+**origin**: Git commit bbed11a3740c576e95a8c6fe1dabb02c6cc9110c
+
+**url**: https://github.com/danderson/nxos
+
+**terms**:
+- License: GPL-2.0
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: Disclose source, license/copyright notice and state changes, same license
+- Restrictions: Liability, warranty
+
+
+### STM32 USB Device Library
+
+**path**: `lib/STM32_USB_Device_Library/`
+
+**origin**: Git commit 5d01400afd60410f6e049cbd19179a67d44d53fd
+
+**url**: https://github.com/STMicroelectronics/STM32CubeF4
+
+**terms**:
+- License: proprietary
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: Compiled code can only be executed on STM32 products
+- Restrictions: Liability, trademark use, warranty
+
+
+### Contiki OS
+
+**path**: `lib/contiki-core/`
+
+**origin**: Git commit 32b5b17f674232867c22916bb2e2534c8e9a92ff
+
+**url**: https://github.com/contiki-os/contiki
+
+**terms**:
+- License: BSD-3-Clause
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: License and copyright notice
+- Restrictions: Liability, warranty
+
+
+### STMems_Standard_C_drivers
+
+**path**: `lib/lsm6ds3tr_c_STdC/`
+
+**origin**: Git commit 5a189f9ccb81615c87d9ad2fb0f394cffb5853d6
+
+**url**: https://github.com/STMicroelectronics/STMems_Standard_C_drivers
+
+**terms**:
+- License: BSD-3-Clause
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: License and copyright notice
+- Restrictions: Liability, warranty
+
+
+### BlueKitchen BTStack
+
+**path**: `lib/btstack/`
+
+**origin**: Git commit 039b5ecb8b267d3c4fc6d0521ab55182e00567a9
+
+**url**: https://github.com/bluekitchen/btstack
+
+**terms**:
+- License: BSD-3-Clause + personal use only restriction
+- Permissions: Distribution, modification, private use
+- Conditions: License and copyright notice
+- Restrictions: Commercial use, liability, warranty
+
+### Lightweight ring buffer manager
+
+**path**: `lib/lwrb/`
+
+**origin**: Git commit fc8044d99fcd3950c18172fec0edc850b8dfe565
+
+**url**: https://github.com/MaJerle/lwrb
+
+**terms**:
+- License: MIT
+- Permissions: Commercial use, distribution, modification, private use
+- Conditions: License and copyright notice
+- Restrictions: Liability, warranty
+
+---
+
+Explanation of license terms can be found at <https://choosealicense.com/appendix/>.

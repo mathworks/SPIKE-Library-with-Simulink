@@ -1,0 +1,61 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/contiki-core/sys/process.o: \
+ ../../lib/contiki-core/sys/process.c \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h \
+ ../..//lib/contiki-core/sys/cc.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ ../..//lib/contiki-core/sys/cc-gcc.h ../..//lib/contiki-core/sys/arg.h
+ ../../lib/contiki-core/sys/process.c :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdio.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/stdio.h :
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h :
+ ../..//lib/contiki-core/sys/cc.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ ../..//lib/contiki-core/sys/cc-gcc.h ../..//lib/contiki-core/sys/arg.h :

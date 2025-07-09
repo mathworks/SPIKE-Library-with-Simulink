@@ -1,0 +1,95 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/src/motor_process.o: \
+ ../../lib/pbio/src/motor_process.c \
+ ../..//lib/pbio/include/pbio/battery.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../..//lib/pbio/include/pbio/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h \
+ ../..//lib/pbio/include/pbio/error.h \
+ ../..//lib/pbio/include/pbio/control.h \
+ ../..//lib/pbio/include/pbio/angle.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ ../..//lib/pbio/include/pbio/control_settings.h \
+ ../..//lib/pbio/include/pbio/trajectory.h \
+ ../..//lib/pbio/include/pbio/port.h \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h \
+ ../..//lib/pbio/include/pbio/dcmotor.h \
+ ../..//lib/pbio/include/pbdrv/motor_driver.h \
+ ../..//lib/pbio/include/pbio/iodev.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ ../..//lib/lego/lego_uart.h ../..//lib/pbio/include/pbio/parent.h \
+ ../..//lib/pbio/include/pbio/integrator.h \
+ ../..//lib/pbio/include/pbio/logger.h \
+ ../..//lib/pbio/include/pbio/drivebase.h \
+ ../..//lib/pbio/include/pbio/servo.h \
+ ../..//lib/pbio/include/pbdrv/counter.h \
+ ../..//lib/pbio/include/pbio/tacho.h \
+ ../..//lib/pbio/include/pbio/observer.h \
+ ../..//lib/pbio/include/pbio/differentiator.h \
+ ../..//lib/contiki-core/contiki.h \
+ ../..//lib/contiki-core/contiki-version.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h \
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h \
+ ../..//lib/contiki-core/sys/cc.h ../..//lib/contiki-core/sys/cc-gcc.h \
+ ../..//lib/contiki-core/sys/autostart.h \
+ ../..//lib/contiki-core/sys/process.h \
+ ../..//lib/contiki-core/sys/timer.h ../..//lib/contiki-core/sys/clock.h \
+ ../..//lib/contiki-core/sys/ctimer.h \
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/timer.h \
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/procinit.h \
+ ../..//lib/contiki-core/sys/clock.h
+ ../../lib/pbio/src/motor_process.c :
+ ../..//lib/pbio/include/pbio/battery.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../..//lib/pbio/include/pbio/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h :
+ ../..//lib/pbio/include/pbio/error.h :
+ ../..//lib/pbio/include/pbio/control.h :
+ ../..//lib/pbio/include/pbio/angle.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ ../..//lib/pbio/include/pbio/control_settings.h :
+ ../..//lib/pbio/include/pbio/trajectory.h :
+ ../..//lib/pbio/include/pbio/port.h :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :
+ ../..//lib/pbio/include/pbio/dcmotor.h :
+ ../..//lib/pbio/include/pbdrv/motor_driver.h :
+ ../..//lib/pbio/include/pbio/iodev.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ ../..//lib/lego/lego_uart.h ../..//lib/pbio/include/pbio/parent.h :
+ ../..//lib/pbio/include/pbio/integrator.h :
+ ../..//lib/pbio/include/pbio/logger.h :
+ ../..//lib/pbio/include/pbio/drivebase.h :
+ ../..//lib/pbio/include/pbio/servo.h :
+ ../..//lib/pbio/include/pbdrv/counter.h :
+ ../..//lib/pbio/include/pbio/tacho.h :
+ ../..//lib/pbio/include/pbio/observer.h :
+ ../..//lib/pbio/include/pbio/differentiator.h :
+ ../..//lib/contiki-core/contiki.h :
+ ../..//lib/contiki-core/contiki-version.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h :
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h :
+ ../..//lib/contiki-core/sys/cc.h ../..//lib/contiki-core/sys/cc-gcc.h :
+ ../..//lib/contiki-core/sys/autostart.h :
+ ../..//lib/contiki-core/sys/process.h :
+ ../..//lib/contiki-core/sys/timer.h ../..//lib/contiki-core/sys/clock.h :
+ ../..//lib/contiki-core/sys/ctimer.h :
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/timer.h :
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/procinit.h :
+ ../..//lib/contiki-core/sys/clock.h :

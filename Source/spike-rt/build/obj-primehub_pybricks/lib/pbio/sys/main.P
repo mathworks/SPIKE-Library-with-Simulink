@@ -1,0 +1,5 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/sys/main.o: \
+ ../../lib/pbio/sys/main.c ../..//lib/pbio/include/pbsys/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h
+ ../../lib/pbio/sys/main.c ../..//lib/pbio/include/pbsys/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h :

@@ -1,0 +1,7 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/drv/button/button_nxt.o: \
+ ../../lib/pbio/drv/button/button_nxt.c \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h
+ ../../lib/pbio/drv/button/button_nxt.c :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :

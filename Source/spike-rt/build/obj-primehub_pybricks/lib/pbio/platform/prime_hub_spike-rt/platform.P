@@ -1,0 +1,231 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/platform/prime_hub_spike-rt/platform.o: \
+ ../../lib/pbio/platform/prime_hub_spike-rt/platform.c \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ ../..//lib/btstack/chipset/cc256x/btstack_chipset_cc256x.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../..//lib/btstack/src/btstack_chipset.h \
+ ../..//lib/btstack/src/btstack_util.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/string.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ ../..//lib/btstack/src/bluetooth.h \
+ ../..//lib/btstack/src/btstack_defines.h \
+ ../..//lib/btstack/src/btstack_linked_list.h \
+ ../..//lib/btstack/src/btstack_bool.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/stm32f4xx_hal_conf.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h \
+ ../../micropython/lib/cmsis/inc/core_cm4.h \
+ ../../micropython/lib/cmsis/inc/cmsis_version.h \
+ ../../micropython/lib/cmsis/inc/cmsis_compiler.h \
+ ../../micropython/lib/cmsis/inc/cmsis_gcc.h \
+ ../../micropython/lib/cmsis/inc/mpu_armv7.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h \
+ ../..//lib/asp3/kernel.h ../..//lib/pbio/include/pbdrv/clock.h \
+ ../..//lib/pbio/include/pbio/uartdev.h \
+ ../..//lib/pbio/include/pbio/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h \
+ ../..//lib/pbio/include/pbio/error.h \
+ ../..//lib/pbio/include/pbio/iodev.h ../..//lib/lego/lego_uart.h \
+ ../..//lib/pbio/include/pbio/port.h \
+ ../..//lib/pbio/include/pbio/light_matrix.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/adc/adc_stm32_hal.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/block_device/block_device_w25qxx_stm32.h \
+ ../..//lib/contiki-core/contiki.h \
+ ../..//lib/contiki-core/contiki-version.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h \
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h \
+ ../..//lib/contiki-core/sys/cc.h ../..//lib/contiki-core/sys/cc-gcc.h \
+ ../..//lib/contiki-core/sys/autostart.h \
+ ../..//lib/contiki-core/sys/process.h \
+ ../..//lib/contiki-core/sys/timer.h ../..//lib/contiki-core/sys/clock.h \
+ ../..//lib/contiki-core/sys/ctimer.h \
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/timer.h \
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/pt.h \
+ ../..//lib/contiki-core/sys/procinit.h \
+ ../..//lib/contiki-core/sys/clock.h ../..//lib/pbio/include/pbdrv/gpio.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/bluetooth/bluetooth_btstack_control_gpio.h \
+ ../..//lib/btstack/src/btstack_control.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/bluetooth/bluetooth_btstack_uart_block_stm32_hal.h \
+ ../..//lib/btstack/src/btstack_uart_block.h \
+ ../..//lib/btstack/src/btstack_uart.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/btstack_config.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/bluetooth/bluetooth_btstack.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/charger/charger_mp2639a.h \
+ ../..//lib/pbio/include/pbdrv/resistor_ladder.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/counter/counter_lpf2.h \
+ ../..//lib/pbio/include/pbdrv/counter.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/imu/imu_lsm6ds3tr_c_stm32.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/ioport/ioport_lpf2.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/led/led_array_pwm.h \
+ ../..//lib/pbio/include/pbdrv/led.h ../..//lib/pbio/include/pbio/color.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/led/led_dual.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/led/led_pwm.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/motor_driver/motor_driver_hbridge_pwm.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/pwm/pwm_stm32_tim.h \
+ ../..//lib/pbio/include/pbdrv/pwm.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/pwm/pwm_tlc5955_stm32.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/resistor_ladder/resistor_ladder.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/sound/sound_stm32_hal_dac.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/uart/uart_stm32f4_ll_irq.h \
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/usb/usb_stm32.h
+ ../../lib/pbio/platform/prime_hub_spike-rt/platform.c :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ ../..//lib/btstack/chipset/cc256x/btstack_chipset_cc256x.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../..//lib/btstack/src/btstack_chipset.h :
+ ../..//lib/btstack/src/btstack_util.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/string.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/string.h :
+ ../..//lib/btstack/src/bluetooth.h :
+ ../..//lib/btstack/src/btstack_defines.h :
+ ../..//lib/btstack/src/btstack_linked_list.h :
+ ../..//lib/btstack/src/btstack_bool.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/stm32f4xx_hal_conf.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h :
+ ../../micropython/lib/cmsis/inc/core_cm4.h :
+ ../../micropython/lib/cmsis/inc/cmsis_version.h :
+ ../../micropython/lib/cmsis/inc/cmsis_compiler.h :
+ ../../micropython/lib/cmsis/inc/cmsis_gcc.h :
+ ../../micropython/lib/cmsis/inc/mpu_armv7.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :
+ ../..//lib/asp3/kernel.h ../..//lib/pbio/include/pbdrv/clock.h :
+ ../..//lib/pbio/include/pbio/uartdev.h :
+ ../..//lib/pbio/include/pbio/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h :
+ ../..//lib/pbio/include/pbio/error.h :
+ ../..//lib/pbio/include/pbio/iodev.h ../..//lib/lego/lego_uart.h :
+ ../..//lib/pbio/include/pbio/port.h :
+ ../..//lib/pbio/include/pbio/light_matrix.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/adc/adc_stm32_hal.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/block_device/block_device_w25qxx_stm32.h :
+ ../..//lib/contiki-core/contiki.h :
+ ../..//lib/contiki-core/contiki-version.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/contiki-conf.h :
+ ../..//lib/contiki-core/sys/process.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/lc.h ../..//lib/contiki-core/sys/lc-switch.h :
+ ../..//lib/contiki-core/sys/cc.h ../..//lib/contiki-core/sys/cc-gcc.h :
+ ../..//lib/contiki-core/sys/autostart.h :
+ ../..//lib/contiki-core/sys/process.h :
+ ../..//lib/contiki-core/sys/timer.h ../..//lib/contiki-core/sys/clock.h :
+ ../..//lib/contiki-core/sys/ctimer.h :
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/timer.h :
+ ../..//lib/contiki-core/sys/etimer.h ../..//lib/contiki-core/sys/pt.h :
+ ../..//lib/contiki-core/sys/procinit.h :
+ ../..//lib/contiki-core/sys/clock.h ../..//lib/pbio/include/pbdrv/gpio.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/bluetooth/bluetooth_btstack_control_gpio.h :
+ ../..//lib/btstack/src/btstack_control.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/bluetooth/bluetooth_btstack_uart_block_stm32_hal.h :
+ ../..//lib/btstack/src/btstack_uart_block.h :
+ ../..//lib/btstack/src/btstack_uart.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/btstack_config.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/bluetooth/bluetooth_btstack.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/charger/charger_mp2639a.h :
+ ../..//lib/pbio/include/pbdrv/resistor_ladder.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/counter/counter_lpf2.h :
+ ../..//lib/pbio/include/pbdrv/counter.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/imu/imu_lsm6ds3tr_c_stm32.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/ioport/ioport_lpf2.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/led/led_array_pwm.h :
+ ../..//lib/pbio/include/pbdrv/led.h ../..//lib/pbio/include/pbio/color.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/led/led_dual.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/led/led_pwm.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/motor_driver/motor_driver_hbridge_pwm.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/pwm/pwm_stm32_tim.h :
+ ../..//lib/pbio/include/pbdrv/pwm.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/pwm/pwm_tlc5955_stm32.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/resistor_ladder/resistor_ladder.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/sound/sound_stm32_hal_dac.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/uart/uart_stm32f4_ll_irq.h :
+ ../../lib/pbio/platform/prime_hub_spike-rt/../../drv/usb/usb_stm32.h :

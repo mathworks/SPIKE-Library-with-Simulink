@@ -1,0 +1,5 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/drv/virtual.o: \
+ ../../lib/pbio/drv/virtual.c ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h
+ ../../lib/pbio/drv/virtual.c ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :

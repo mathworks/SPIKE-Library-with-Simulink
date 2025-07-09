@@ -1,0 +1,7 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/drv/clock/clock_virtual.o: \
+ ../../lib/pbio/drv/clock/clock_virtual.c \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h
+ ../../lib/pbio/drv/clock/clock_virtual.c :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :

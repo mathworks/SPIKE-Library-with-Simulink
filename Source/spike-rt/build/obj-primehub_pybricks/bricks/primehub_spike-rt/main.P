@@ -1,0 +1,59 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/bricks/primehub_spike-rt/main.o: \
+ ../../bricks/primehub_spike-rt/main.c \
+ ../..//lib/pbio/include/pbsys/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../..//lib/pbio/include/pbdrv/reset.h \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h \
+ ../..//lib/pbio/include/pbdrv/usb.h ../..//lib/pbio/include/pbio/main.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ ../..//lib/pbio/include/pbio/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h \
+ ../..//lib/pbio/include/pbsys/core.h \
+ ../..//lib/pbio/include/pbsys/main.h \
+ ../..//lib/pbio/include/pbsys/status.h \
+ ../..//lib/pbio/include/pbio/protocol.h \
+ ../..//lib/pbio/include/pbio/error.h ../..//lib/pbio/include/pbio/util.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ ../..//lib/pbio/include/pbsys/program_stop.h \
+ ../..//lib/pbio/include/pbio/button.h \
+ ../..//lib/pbio/include/pbio/port.h \
+ ../..//lib/pbio/include/pbdrv/button.h \
+ ../..//lib/pbio/include/pbsys/bluetooth.h
+ ../../bricks/primehub_spike-rt/main.c :
+ ../..//lib/pbio/include/pbsys/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../..//lib/pbio/include/pbdrv/reset.h :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :
+ ../..//lib/pbio/include/pbdrv/usb.h ../..//lib/pbio/include/pbio/main.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ ../..//lib/pbio/include/pbio/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbioconfig.h :
+ ../..//lib/pbio/include/pbsys/core.h :
+ ../..//lib/pbio/include/pbsys/main.h :
+ ../..//lib/pbio/include/pbsys/status.h :
+ ../..//lib/pbio/include/pbio/protocol.h :
+ ../..//lib/pbio/include/pbio/error.h ../..//lib/pbio/include/pbio/util.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ ../..//lib/pbio/include/pbsys/program_stop.h :
+ ../..//lib/pbio/include/pbio/button.h :
+ ../..//lib/pbio/include/pbio/port.h :
+ ../..//lib/pbio/include/pbdrv/button.h :
+ ../..//lib/pbio/include/pbsys/bluetooth.h :

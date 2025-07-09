@@ -1,0 +1,74 @@
+# Compiled Sources
+###################
+*.o
+*.a
+*.P
+*.elf
+*.bin
+*.map
+*.hex
+*.dis
+*.exe
+
+# Packages
+############
+*.tar.gz
+
+# Logs and Databases
+######################
+*.log
+
+# VIM Swap Files
+######################
+*.swp
+
+# Build directory
+######################
+build/
+build-*/
+_build/
+
+# Test failure outputs
+######################
+tests/*.exp
+
+# Python virtual environment
+############################
+.venv/
+.python-version
+
+# Python cache files
+######################
+__pycache__/
+*.pyc
+
+# PyPi build files
+######################
+*.egg-info/
+dist/
+
+# Customized Makefile/project overrides
+######################
+GNUmakefile
+user.props
+
+# Generated rst files
+######################
+genrst/
+
+# Pipenv & Pip files
+######################
+Pipfile
+Pipfile.lock
+
+# Mac OS cache
+######################
+.DS_Store
+
+# Local environment
+######################
+.env
+
+# Jupyter Notebook
+######################
+.ipynb_checkpoints

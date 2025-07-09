@@ -1,0 +1,6 @@
+addpath('libraries')
+addpath('libraries\libutils')
+addpath('libraries\libspikert')
+addpath('libraries\libimage')
+addpath('libraries\libblocks')
+addpath('temp')

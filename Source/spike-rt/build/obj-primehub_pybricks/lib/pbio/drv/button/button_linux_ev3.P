@@ -1,0 +1,7 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/drv/button/button_linux_ev3.o: \
+ ../../lib/pbio/drv/button/button_linux_ev3.c \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h
+ ../../lib/pbio/drv/button/button_linux_ev3.c :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :

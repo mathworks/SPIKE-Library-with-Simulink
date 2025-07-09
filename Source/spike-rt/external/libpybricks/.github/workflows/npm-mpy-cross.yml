@@ -1,0 +1,27 @@
+name: Publish mpy-cross web assembly package
+
+on:
+  push:
+    tags:
+    - '@pybricks/mpy-cross-v6/*'
+
+jobs:
+  npm_mpy_cross:
+    runs-on: ubuntu-22.04
+    defaults:
+      run:
+        working-directory: npm/mpy-cross
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '16.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: sudo apt-get update && sudo apt-get install -y emscripten
+    - run: yarn install
+    - run: yarn build
+    - run: yarn publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}

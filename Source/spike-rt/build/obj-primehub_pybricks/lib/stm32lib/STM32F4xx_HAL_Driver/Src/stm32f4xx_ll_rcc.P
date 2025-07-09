@@ -1,0 +1,35 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/stm32lib/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.o: \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c \
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h \
+ ../../micropython/lib/cmsis/inc/core_cm4.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../../micropython/lib/cmsis/inc/cmsis_version.h \
+ ../../micropython/lib/cmsis/inc/cmsis_compiler.h \
+ ../../micropython/lib/cmsis/inc/cmsis_gcc.h \
+ ../../micropython/lib/cmsis/inc/mpu_armv7.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c :
+ ../../micropython/lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h :
+ ../../micropython/lib/cmsis/inc/core_cm4.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../../micropython/lib/cmsis/inc/cmsis_version.h :
+ ../../micropython/lib/cmsis/inc/cmsis_compiler.h :
+ ../../micropython/lib/cmsis/inc/cmsis_gcc.h :
+ ../../micropython/lib/cmsis/inc/mpu_armv7.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h :

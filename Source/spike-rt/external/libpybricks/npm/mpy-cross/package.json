@@ -1,0 +1,35 @@
+{
+    "name": "@pybricks/mpy-cross-v6",
+    "version": "2.0.0",
+    "description": "MicroPython mpy-cross tool (ABI v6) compiled to WebAssembly",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "files": [
+        "./build/"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pybricks/pybricks-micropython",
+        "directory": "npm/mpy-cross"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
+    "author": "The Pybricks Authors",
+    "license": "MIT",
+    "scripts": {
+        "build": "make && tsc",
+        "build:debug": "make DEBUG=1 && tsc",
+        "clean": "make clean"
+    },
+    "devDependencies": {
+        "@types/emscripten": "^1.39.3",
+        "typescript": "^3.8.3"
+    },
+    "browser": {
+        "crypto": false,
+        "fs": false,
+        "path": false
+    }
+}

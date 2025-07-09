@@ -1,0 +1,3 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/contiki-core/lib/list.o: \
+ ../../lib/contiki-core/lib/list.c ../..//lib/contiki-core/lib/list.h
+ ../../lib/contiki-core/lib/list.c ../..//lib/contiki-core/lib/list.h :

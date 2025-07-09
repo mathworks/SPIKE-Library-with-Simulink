@@ -1,0 +1,43 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/lib/pbio/drv/counter/counter_lpf2.o: \
+ ../../lib/pbio/drv/counter/counter_lpf2.c \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../..//lib/pbio/include/pbdrv/ioport.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ ../..//lib/pbio/include/pbio/error.h \
+ ../..//lib/pbio/include/pbio/iodev.h ../..//lib/lego/lego_uart.h \
+ ../..//lib/pbio/include/pbio/port.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ ../..//lib/pbio/include/pbio/util.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ ../../lib/pbio/drv/counter/counter.h \
+ ../..//lib/pbio/include/pbdrv/counter.h \
+ ../../lib/pbio/drv/counter/counter_lpf2.h
+ ../../lib/pbio/drv/counter/counter_lpf2.c :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../..//lib/pbio/include/pbdrv/ioport.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ ../..//lib/pbio/include/pbio/error.h :
+ ../..//lib/pbio/include/pbio/iodev.h ../..//lib/lego/lego_uart.h :
+ ../..//lib/pbio/include/pbio/port.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ ../..//lib/pbio/include/pbio/util.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h :
+ ../../lib/pbio/drv/counter/counter.h :
+ ../..//lib/pbio/include/pbdrv/counter.h :
+ ../../lib/pbio/drv/counter/counter_lpf2.h :

@@ -1,0 +1,7 @@
+-IC:/class/test/SPIKE_library_20250709/SPIKE_library/temp
+-IC:/class/test/SPIKE_library_20250709/SPIKE_library/temp/slapp_ert_rtw
+-I"C:/Program Files/MATLAB/R2024b/extern/include"
+-I"C:/Program Files/MATLAB/R2024b/simulink/include"
+-I"C:/Program Files/MATLAB/R2024b/rtw/c/src"
+-I"C:/Program Files/MATLAB/R2024b/rtw/c/src/ext_mode/common"
+-I"C:/Program Files/MATLAB/R2024b/rtw/c/ert"

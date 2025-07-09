@@ -1,0 +1,327 @@
+name: Build
+
+on:
+  push:
+    branches:
+    - '**'
+    tags-ignore:
+    - '@pybricks/**'
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  MAKEOPTS: -j2
+
+jobs:
+  mpy_cross:
+    name: mpy-cross
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Build mpy-cross
+      run: make $MAKEOPTS -C micropython/mpy-cross
+    - name: Upload mpy-cross
+      if: ${{ success() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross/mpy-cross
+
+  unix_coverage:
+    name: unix coverage
+    needs: mpy_cross
+    runs-on: ubuntu-22.04
+    env:
+      PYBRICKS_NO_REDIRECT_STDOUT: 1
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Download mpy-cross
+      uses: actions/download-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross
+    - name: Fix file permission
+      run: chmod +x micropython/mpy-cross/mpy-cross
+    - name: Build
+      run: |
+        cd micropython
+        make ${MAKEOPTS} -C ports/unix VARIANT=coverage submodules
+        make ${MAKEOPTS} -C ports/unix VARIANT=coverage deplibs
+        make ${MAKEOPTS} -C ports/unix VARIANT=coverage
+    - name: Test
+      if: ${{ success() }}
+      run: |
+        cd micropython
+        make -C ports/unix VARIANT=coverage test_full
+        (cd tests && MICROPY_CPYTHON3=python3 MICROPY_MICROPYTHON=../ports/unix/micropython-coverage ./run-multitests.py multi_net/*.py)
+    - name: List failed tests
+      if: failure()
+      run: micropython/tests/run-tests.py --print-failures
+
+  ev3dev_stretch:
+    name: ev3dev-stretch
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Docker login
+      uses: azure/docker-login@v1
+      with:
+        login-server: docker.pkg.github.com
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    - name: Install QEMU
+      run: |
+        sudo apt-get update
+        sudo apt-get install qemu-user-static
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Create docker container
+      run: bricks/ev3dev/docker/setup.sh armel
+    - name: Build
+      run: |
+        docker exec --tty pybricks-ev3dev_armel make -C ../../micropython/mpy-cross CROSS_COMPILE=
+        docker exec --tty pybricks-ev3dev_armel make
+    - name: Test
+      if: ${{ success() }}
+      run: |
+        docker exec --tty pybricks-ev3dev_armel make test-ev3dev
+    - name: List failed tests
+      if: failure()
+      run: micropython/tests/run-tests.py --print-failures
+    - name: Upload pybricks-micropython
+      if: ${{ success() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: pybricks-micropython-build-${{ github.run_number }}
+        path: bricks/ev3dev/pybricks-micropython
+
+  ev3dev_ubuntu_lts:
+    name: ev3dev-ubuntu-lts
+    needs: mpy_cross
+    runs-on: ubuntu-22.04
+    env:
+      CROSS_COMPILE: ""
+    steps:
+    - name: Install rerequisites
+      run: |
+        sudo apt-add-repository --update --yes ppa:ev3dev/tools
+        sudo apt-get install --no-install-recommends --yes \
+        alsa-utils \
+        espeak \
+        ev3dev-media \
+        ev3dev-mocks \
+        libasound2-plugin-ev3dev \
+        libffi-dev \
+        libgrx-3.0-dev \
+        libi2c-dev \
+        libudev-dev \
+        libumockdev0 \
+        pkg-config \
+        uthash-dev \
+        xfonts-100dpi
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Download mpy-cross
+      uses: actions/download-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross
+    - name: Fix file permission
+      run: chmod +x micropython/mpy-cross/mpy-cross
+    - name: Build
+      run: make $MAKEOPTS -C bricks/ev3dev
+    - name: Test
+      if: ${{ success() }}
+      run: |
+        make $MAKEOPTS -C bricks/ev3dev test
+        make $MAKEOPTS -C bricks/ev3dev test-ev3dev
+    - name: List failed tests
+      if: failure()
+      run: micropython/tests/run-tests.py --print-failures
+
+  firmware:
+    name: firmware
+    strategy:
+      fail-fast: false
+      matrix:
+        hub: [cityhub, essentialhub, movehub, nxt, primehub, technichub]
+    needs: [mpy_cross]
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Install cross-compiler
+      run: sudo apt-get update && sudo apt-get install --yes gcc-arm-none-eabi
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Download mpy-cross
+      uses: actions/download-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross
+    - name: Fix file permission
+      run: chmod +x micropython/mpy-cross/mpy-cross
+    - name: Install python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install Python packages
+      run:  python -m pip install azure-cosmosdb-table GitPython
+    - name: Build firmware (pull request)
+      if: ${{ github.base_ref != null }}
+      run: .github/build-each-commit.py ${{ matrix.hub }} ${{ github.sha }}
+    - name: Build firmware (non-master branch)
+      if: ${{ github.base_ref == null && github.ref != 'refs/heads/master' }}
+      env:
+        STORAGE_ACCOUNT: ${{ secrets.STORAGE_ACCOUNT }}
+        STORAGE_KEY: ${{ secrets.STORAGE_KEY }}
+        FIRMWARE_SIZE_TABLE: ${{ secrets.FIRMWARE_SIZE_TABLE }}
+      run: .github/build-each-commit.py ${{ matrix.hub }} ${{ github.ref_name }}
+    - name: Build firmware (master branch)
+      if: ${{ github.base_ref == null && github.ref == 'refs/heads/master' }}
+      run: make -C bricks/${{ matrix.hub }}
+    - name: Extract firmware.zip for upload
+      if: ${{ success()}}
+      working-directory: bricks/${{ matrix.hub }}/build
+      run: unzip firmware.zip -d upload
+    - name: Upload firmware
+      if: ${{ success()}}
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.hub }}-firmware-build-${{ github.run_number }}
+        path: bricks/${{ matrix.hub }}/build/upload/*
+
+  virtualhub:
+    name: virtual hub
+    needs: [mpy_cross]
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Install depedencies
+      run: sudo apt-get update && sudo apt-get install lcov python3-numpy --yes
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Checkout submodules
+      run: |
+        cd micropython
+        git submodule update --init --depth 0 lib/axtls
+        git submodule update --init --depth 0 lib/berkeley-db-1.xx
+        git submodule update --init --depth 0 lib/libffi
+    - name: Download mpy-cross
+      uses: actions/download-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross
+    - name: Fix file permission
+      run: chmod +x micropython/mpy-cross/mpy-cross
+    - name: Build and test
+      run: COVERAGE=1 ./test-virtualhub.sh
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        path-to-lcov: bricks/virtualhub/build-coverage/lcov.info
+        flag-name: virtualhub
+        parallel: true
+
+  ev3rt:
+    name: ev3rt uImage
+    needs: [mpy_cross]
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Install cross-compiler
+      run: sudo apt-get update && sudo apt-get install --yes gcc-arm-none-eabi ruby u-boot-tools
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Download mpy-cross
+      uses: actions/download-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross
+    - name: Fix file permission
+      run: chmod +x micropython/mpy-cross/mpy-cross
+    - name: Build
+      run: make $MAKEOPTS -C bricks/ev3rt
+
+  debug:
+    name: debug firmware
+    needs: [mpy_cross]
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Install cross-compiler
+      run: sudo apt-get update && sudo apt-get install --yes gcc-arm-none-eabi
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Download mpy-cross
+      uses: actions/download-artifact@v3
+      with:
+        name: mpy-cross
+        path: micropython/mpy-cross
+    - name: Fix file permission
+      run: chmod +x micropython/mpy-cross/mpy-cross
+    - name: Build
+      run: make $MAKEOPTS -C bricks/debug build/firmware.dfu
+
+  pbio:
+    name: pbio tests
+    runs-on: ubuntu-22.04
+    env:
+      PBIO_TEST_RESULTS_DIR: lib/pbio/test/results
+    steps:
+    - name: Install prerequisites
+      run: |
+        sudo apt-get update
+        sudo apt-get install --yes doxygen graphviz lcov
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Build
+      run: |
+        make $MAKEOPTS -C lib/pbio/test
+    - name: Build docs
+      run: |
+        make $MAKEOPTS -C lib/pbio/doc
+    - name: Build coverage
+      run: |
+        make $MAKEOPTS -C lib/pbio/test build-coverage/lcov.info
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        path-to-lcov: lib/pbio/test/build-coverage/lcov.info
+        flag-name: PBIO
+        parallel: true
+
+  finish:
+    needs: [virtualhub, pbio]
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel-finished: true
+

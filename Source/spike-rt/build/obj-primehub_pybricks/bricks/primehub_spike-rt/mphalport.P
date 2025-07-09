@@ -1,0 +1,115 @@
+/home/yokano/spike-rt/build/obj-primehub_pybricks/bricks/primehub_spike-rt/mphalport.o: \
+ ../../bricks/primehub_spike-rt/mphalport.c \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ ../..//lib/pbio/include/pbdrv/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h \
+ ../..//lib/pbio/include/pbsys/bluetooth.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ ../..//lib/pbio/include/pbio/error.h \
+ ../..//lib/pbio/include/pbsys/config.h \
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h \
+ ../../micropython/py/runtime.h ../../micropython/py/mpstate.h \
+ ../../micropython/py/mpconfig.h mpconfigport.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h \
+ ../../micropython/lib/cmsis/inc/core_cm4.h \
+ ../../micropython/lib/cmsis/inc/cmsis_version.h \
+ ../../micropython/lib/cmsis/inc/cmsis_compiler.h \
+ ../../micropython/lib/cmsis/inc/cmsis_gcc.h \
+ ../../micropython/lib/cmsis/inc/mpu_armv7.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h \
+ ../_common_stm32/mpconfigport.h \
+ ../_common_stm32/../_common/mpconfigport.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/alloca.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ ../../micropython/py/mpthread.h ../../micropython/py/misc.h \
+ ../../micropython/py/nlr.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/limits.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/syslimits.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/assert.h \
+ ../../micropython/py/obj.h ../../micropython/py/qstr.h \
+ /home/yokano/spike-rt/build/obj-primehub_pybricks/genhdr/qstrdefs.generated.h \
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h \
+ ../../micropython/py/objlist.h ../../micropython/py/objexcept.h \
+ ../../micropython/py/objtuple.h ../../micropython/py/pystack.h \
+ ../../micropython/py/mphal.h ../_common/mphalport.h \
+ ../..//lib/pbio/include/pbdrv/clock.h ../../micropython/extmod/virtpin.h \
+ ../../micropython/py/stream.h ../../micropython/py/mperrno.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/errno.h \
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/errno.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h \
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h
+ ../../bricks/primehub_spike-rt/mphalport.c :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h :
+ ../..//lib/pbio/include/pbdrv/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbdrvconfig.h :
+ ../..//lib/pbio/include/pbsys/bluetooth.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ ../..//lib/pbio/include/pbio/error.h :
+ ../..//lib/pbio/include/pbsys/config.h :
+ ../..//lib/pbio/platform/prime_hub_spike-rt/pbsysconfig.h :
+ ../../micropython/py/runtime.h ../../micropython/py/mpstate.h :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h :
+ ../../micropython/lib/cmsis/inc/core_cm4.h :
+ ../../micropython/lib/cmsis/inc/cmsis_version.h :
+ ../../micropython/lib/cmsis/inc/cmsis_compiler.h :
+ ../../micropython/lib/cmsis/inc/cmsis_gcc.h :
+ ../../micropython/lib/cmsis/inc/mpu_armv7.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h :
+ ../_common_stm32/mpconfigport.h :
+ ../_common_stm32/../_common/mpconfigport.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/alloca.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/reent.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/machine/_types.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/lock.h :
+ ../../micropython/py/mpthread.h ../../micropython/py/misc.h :
+ ../../micropython/py/nlr.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h :
+ /usr/local/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/limits.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/syslimits.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/assert.h :
+ ../../micropython/py/obj.h ../../micropython/py/qstr.h :
+ /home/yokano/spike-rt/build/obj-primehub_pybricks/genhdr/qstrdefs.generated.h :
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h :
+ ../../micropython/py/objlist.h ../../micropython/py/objexcept.h :
+ ../../micropython/py/objtuple.h ../../micropython/py/pystack.h :
+ ../../micropython/py/mphal.h ../_common/mphalport.h :
+ ../..//lib/pbio/include/pbdrv/clock.h ../../micropython/extmod/virtpin.h :
+ ../../micropython/py/stream.h ../../micropython/py/mperrno.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/errno.h :
+ /usr/local/gcc-arm-none-eabi/arm-none-eabi/include/sys/errno.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h :
+ ../../micropython/lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h :
