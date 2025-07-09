@@ -1,6 +1,6 @@
 # Simulink LEGO SPIKE Library
 
-Image/Library.png
+./Image/Library.png 
 
 ## Overview
 
