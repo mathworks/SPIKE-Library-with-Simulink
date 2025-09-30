@@ -1,0 +1,15 @@
+Copyright (c) 2023 Afrel Co.,Ltd.
+GNU General Public License (GPL) version 3
+see http://www.gnu.org/licenses/lgpl-3.0.txt
+
+The software also uses parts of the following software
+https://github.com/micropython/micropython/tree/master/tools
+
+1) dfu.py
+Distributed under Gnu LGPL 3.0
+see http://www.gnu.org/licenses/lgpl-3.0.txt
+
+2) pydfu.py
+Copyright (c) 2013/2014 Ibrahim Abdelkader <i.abdalkader@gmail.com>
+This work is licensed under the MIT license
+
