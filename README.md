@@ -24,3 +24,6 @@ For example, students can design robots as part of a class project and build con
 ## A Tool to Inspire Creativity
 
 Simulink LEGO SPIKE Library is more than just a control tool—it’s a platform that sparks creativity. From children to adults, anyone can bring their ideas to life. This library serves as a powerful tool to nurture the next generation of engineers and inventors.
+
+## Availability
+![Library](./Image/Availability.png)
